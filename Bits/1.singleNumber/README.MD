@@ -32,18 +32,22 @@ def singleNumber(nums):
 
 bitwise exclusive OR (XOR) 
 
-python :`x ^ y`
+python : `x ^ y`
 
 **truth table**
 
 | x | y | x (xor) y |
 |:--:|:--:|:--:|
-|T|T|F|
-|T|F|T|
-|F|T|T|
-|F|F|F|
+|1|1|0|
+|1|0|1|
+|0|1|1|
+|0|0|0|
 
 from the truth table when x and y are equal. That value will disappear.
+
+> **given an array of integers in which every element appears twice, except for one**
+
+so every element that appears twice will disappear.
 
 ex.
 
@@ -51,7 +55,7 @@ ex.
 
 3 = `0b011`
 
-`input = [5, 3, 5]`
+input = `[5, 3, 5]`
 
 5(`101`) xor 3(`011`) = 6(`110`)
 
