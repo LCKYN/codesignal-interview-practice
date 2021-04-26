@@ -20,3 +20,35 @@ You are given an array of integers in which every element appears twice, except 
 
 ---
 
+`singleNumber.py`
+
+```python
+def singleNumber(nums):
+    res = 0
+    for num in nums:
+        res ^= num 
+    return res
+```
+
+bitwise exclusive OR (XOR) 
+
+python :`x ^ y`
+
+**truth table**
+
+| x | y | x (xor) y |
+|:--:|:--:|:--:|
+|T|T|F|
+|T|F|T|
+|F|T|T|
+|F|F|F|
+
+from the truth table when x and y are equal. That value will disappear.
+
+ex.
+
+5 = `0b101`
+
+3 = `0b011`
+
+input 
