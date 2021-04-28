@@ -29,3 +29,11 @@ Given a `sentence`, return `true` if it is correct and `false` otherwise.
   * `true` if the given `sentence` is correct, `false` otherwise.
 
 ---
+
+`isSentenceCorrect.py`
+
+```python
+def isSentenceCorrect(sentence):
+    pattern = r"^[A-Z][^.?!]*[.?!]$"
+    return re.match(pattern, sentence) is not None
+```
