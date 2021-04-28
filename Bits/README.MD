@@ -2,4 +2,4 @@
   - Difficulties : `Easy`
   - Type : `Recovery`
   - Score : `1000`
-  - personal thoughts : ` `
+  - personal thoughts : `🥳🥳 just exclusive OR 🥳🥳`
