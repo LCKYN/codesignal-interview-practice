@@ -37,3 +37,12 @@ def isSentenceCorrect(sentence):
     pattern = r"^[A-Z][^.?!]*[.?!]$"
     return re.match(pattern, sentence) is not None
 ```
+
+
+* `^[A-Z]`
+  * start with Capital letter
+* `[^.?!]*`
+  * `[^.?!]` The middle must not be the letter `.`, `?`, `!`.
+  *  `*` matches zero or more character
+* `[.?!]$`
+  * end with `.`, `?`, `!`.
