@@ -1,4 +1,4 @@
-- [x] 1. Is Sentence Correct?
+- [x] 1.singleNumber
   - Difficulties : `Easy`
   - Type : `Recovery`
   - Score : `1000`
