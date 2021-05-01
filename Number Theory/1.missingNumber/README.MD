@@ -79,9 +79,7 @@ def missingNumber(arr):
 
 ex. from `missingNumber.py`
 
-all number from `sum(range(len(arr) + 1))` and `sum(arr)` = 
-
-`[0, 0, 1, 1, 2, 2, 3, 4, 4, 5, 5]` 
+all number from `sum(range(len(arr) + 1))` and `sum(arr)` = `[0, 0, 1, 1, 2, 2, 3, 4, 4, 5, 5]` 
 
 **every element appears twice, except for one**
 
