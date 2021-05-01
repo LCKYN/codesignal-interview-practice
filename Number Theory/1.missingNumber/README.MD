@@ -81,6 +81,13 @@ ex. from `missingNumber.py`
 
 all number from `sum(range(len(arr) + 1))` and `sum(arr)` = 
 
-`[0, 0, 1, 1, 2, 2, 3, 4, 4, 5, 5]`
+`[0, 0, 1, 1, 2, 2, 3, 4, 4, 5, 5]` 
+
+**every element appears twice, except for one**
+
+```
+(i + 1) = sum(range(len(arr) + 1))
+v = sum(arr)
+```
 
 same as [link](../../Bits/1.singleNumber/README.MD)
