@@ -83,4 +83,4 @@ all number from `sum(range(len(arr) + 1))` and `sum(arr)` =
 
 `[0, 0, 1, 1, 2, 2, 3, 4, 4, 5, 5]`
 
-same as [link](Bits/1.singleNumber/README.MD)
+same as [link](../../Bits/1.singleNumber/README.MD)
