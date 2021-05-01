@@ -38,6 +38,11 @@ def missingNumber(arr):
     n = len(arr)
     return n*(n+1)/2 - sum(arr)
 ```
+same as `missingNumber.py` 
+
+change `sum(range(len(arr) + 1))` to summation formula
+
+sum from 0 to n = `n*(n+1)/2`
 
 ---
 `missingNumber3.py`
