@@ -30,6 +30,28 @@ def missingNumber(arr):
     return sum(range(len(arr) + 1)) - sum(arr)
 ```
 
+Only one number is missing from the array. And the array has numbers from `0` to `n`. To make it easy to understand An example will be the sorted value
+
+ex.
+
+missing number = 3
+
+array length = 5
+
+|index|element|
+|:--:|:--:|
+|0|0|
+|1|1|
+|2|2|
+|3|4|
+|4|5|
+
+`sum(range(len(arr) + 1))` = 0 + 1 + 2 + 3 + 4 + 5 
+
+`sum(arr)` = 0 + 1 + 2 + 4 + 5
+
+Both start from `0` and ends with `n`. But the sum of `sum (arr)` is less than `sum(range(len(arr) + 1))` equal to the missing number.
+
 ---
 `missingNumber2.py`
 
@@ -54,3 +76,11 @@ def missingNumber(arr):
         res ^= (i + 1) ^ v
     return res
 ```
+
+ex. from `missingNumber.py`
+
+all number from `sum(range(len(arr) + 1))` and `sum(arr)` = 
+
+`[0, 0, 1, 1, 2, 2, 3, 4, 4, 5, 5]`
+
+same as [link](Bits/1.singleNumber/README.MD)
