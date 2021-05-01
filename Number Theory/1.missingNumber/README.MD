@@ -1,6 +1,6 @@
 # missingNumber
 
-You are supposed to label a bunch of boxes with numbers from 0 to n, and all the labels are stored in the array arr. Unfortunately one of the labels is missing. Your task is to find it.
+You are supposed to label a bunch of boxes with numbers from `0` to `n`, and all the labels are stored in the array `arr`. Unfortunately one of the labels is missing. Your task is to find it.
 
 ## Example
 
@@ -22,3 +22,30 @@ You are supposed to label a bunch of boxes with numbers from 0 to n, and all the
     The missing number.
 
 ---
+
+`missingNumber.py`
+
+```python
+def missingNumber(arr):
+    return sum(range(len(arr) + 1)) - sum(arr)
+```
+
+---
+`missingNumber2.py`
+
+```python
+def missingNumber(arr):
+    n = len(arr)
+    return n*(n+1)/2 - sum(arr)
+```
+
+---
+`missingNumber3.py`
+
+```python
+def missingNumber(arr):
+    res = 0
+    for i,v in enumerate(arr):
+        res ^= (i + 1) ^ v
+    return res
+```
