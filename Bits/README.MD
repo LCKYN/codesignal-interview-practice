@@ -1,5 +1,5 @@
-- [x] 1.singleNumber
-  - Difficulties : `Easy`
-  - Type : `Recovery`
+- [x] 1.missingNumber
+  - Difficulties : ` `
+  - Type : `Codewriting`
   - Score : `1000`
-  - personal thoughts : `🥳🥳 just exclusive OR 🥳🥳`
+  - personal thoughts : `🥳🥳 summation 🥳🥳`

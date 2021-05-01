@@ -1,0 +1,5 @@
+- [x] 1.singleNumber
+  - Difficulties : `Easy`
+  - Type : `Recovery`
+  - Score : `1000`
+  - personal thoughts : `🥳🥳 just exclusive OR 🥳🥳`
